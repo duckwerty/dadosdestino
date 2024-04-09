@@ -1,0 +1,54 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2c3e50; /* Azul oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 10px 0; /* Aumentamos el espacio de relleno */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  z-index: 1000; /* Aseguramos que esté por encima del resto de los elementos */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #2c3e50; /* Azul oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 10px 0; /* Aumentamos el espacio de relleno */
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  z-index: 1000; /* Aseguramos que esté por encima del resto de los elementos */
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px; /* Añade un margen superior para dejar espacio para el encabezado fijo */
+}
+
+.dice {
+  width: 200px; /* Ajusta el tamaño del dado según sea necesario */
+  height: 200px; /* Ajusta el tamaño del dado según sea necesario */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el espacio del dado */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin-top: 20px; /* Agrega una separación entre el dado y el botón */
+  margin-left: auto; /* Centra horizontalmente el dado */
+  margin-right: auto; /* Centra horizontalmente el dado */
+}
+
+#rollButton {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px; /* Agrega una separación entre el botón y el dado */
+  background-color: #3498DB; /* Azul claro */
+  color: #fff; /* Texto blanco */
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#rollButton:hover {
+  background-color: #2980B9; /* Azul más oscuro al pasar el mouse */
+}
